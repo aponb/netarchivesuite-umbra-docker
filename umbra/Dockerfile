@@ -28,6 +28,6 @@ ADD start.sh start.sh
 RUN chmod 755 /usr/bin/run-chromium  ./wait-for-it.sh ./start.sh
 
 
-RUN pip3 install git+https://github.com/internetarchive/umbra.git
+RUN pip3 install git+https://github.com/netarchivesuite/umbra.git
 
 CMD start.sh
